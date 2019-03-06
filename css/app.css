@@ -10,8 +10,39 @@
 @font-face {
   font-family: 'Montserrat 300';
   src: url("../fonts/Montserrat-Light.ttf"); }
+.nav {
+  height: 70px;
+  line-height: 70px;
+  background: #84C440;
+  margin: 0;
+  padding: 0;
+  width: 100vw; }
+  .nav .nav-content {
+    margin: 0 25px; }
+    .nav .nav-content .logo {
+      float: left; }
+      .nav .nav-content .logo a img {
+        width: 300px; }
+    .nav .nav-content ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      float: right; }
+      .nav .nav-content ul li {
+        display: inline-flex;
+        color: #d4de24; }
+        .nav .nav-content ul li a, .nav .nav-content ul li a:visited {
+          color: #d4de24;
+          font-size: 16px; }
+        .nav .nav-content ul li.divider {
+          margin: 0 25px; }
+
 html {
   font-family: 'Montserrat 400', Arial, sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
 
 h1 {
   font-size: 98px;
@@ -60,6 +91,11 @@ a {
 a.menu {
   font-family: 'Montserrat 400'; }
 
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .button {
   width: 300px;
   height: 45px;
@@ -68,6 +104,7 @@ a.menu {
   transition: 0.2s;
   margin: 20px 0; }
   .button .button-text {
+    font-size: 20px;
     display: inline-block;
     width: 224px;
     padding-left: 25px;

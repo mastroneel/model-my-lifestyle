@@ -38,6 +38,11 @@ html {
   font-family: 'Montserrat 400', Arial, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 98px;
   line-height: 117px;
@@ -95,6 +100,12 @@ a.menu {
   font-family: 'Montserrat 400';
 }
 
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 // general button styles
 .button {
@@ -105,6 +116,7 @@ a.menu {
   transition: 0.2s;
   margin: 20px 0;
   .button-text {
+    font-size: 20px;
     display: inline-block;
     width: 224px;
     padding-left: 25px;
